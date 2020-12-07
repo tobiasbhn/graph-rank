@@ -17,7 +17,7 @@ class GraphRank::Keywords < GraphRank::TextRank
   # Clean text leaving just letters from a-z.
   def clean_text
     @text.downcase!
-    @text.gsub!(/[^a-z ]/, ' ')
+    @text.gsub!(/[^a-zöäüß ]/, ' ')
     @text.gsub!(/\s+/, " ")
   end
 

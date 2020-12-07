@@ -1,5 +1,5 @@
-# Brin, S.; Page, L. (1998). "The anatomy of 
-# a large-scale hypertextual Web search engine". 
+# Brin, S.; Page, L. (1998). "The anatomy of
+# a large-scale hypertextual Web search engine".
 # Computer Networks and ISDN Systems 30: 107–117.
 class GraphRank::PageRank
 

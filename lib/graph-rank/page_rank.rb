@@ -68,7 +68,9 @@ class GraphRank::PageRank
     end
     total = 0.0
     diff.each { |k,v| total += diff[k] * v }
-    Math.sqrt(total/current.size) < @convergence
+
+    result = Math.sqrt(total/current.size)
+    result.to_f.nan? || result < @convergence
   end
 
 end
